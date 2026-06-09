@@ -1,0 +1,41 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# uv
+.uv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.cache/
+
+# Claude Code local (machine-specific permissions/hooks)
+.claude/settings.local.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

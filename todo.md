@@ -1,0 +1,4 @@
+- learn more about memory from langgraph and langchain documentation and implement it practically.
+- implement more on paper and articles specifically for reflexion and generative_agents.
+- implement think_tool (deep research pattern) for langchain courses.
+- complete the ambient _agent from langchain academy.
