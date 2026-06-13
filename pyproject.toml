@@ -39,6 +39,7 @@ dependencies = [
     "pillow>=12.2.0",
     "torchvision>=0.27.0",
     "langgraph-bigtool>=0.0.3",
+    "rank-bm25>=0.2.2",
 ]
 
 

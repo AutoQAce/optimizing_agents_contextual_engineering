@@ -96,6 +96,7 @@ All learning-acceleration tools live in `.claude/skills/` and `.claude/agents/`.
 | `/adr [title\|reconcile N\|list]` | **Before a build** — record an architecture decision (constraint, ≥2 candidates, matrix, predicted failure modes) to `decisions/` and the master Design Decisions Log; `reconcile` closes the predicted-vs-actual loop after |
 | `/explain-paper <pdf>` | Dropped a new paper PDF in `papers_pdf/` — generates the beginner-friendly explainer `.md` in `papers_and_articles/` in the house style (tables, callouts, analogies, Context-Engineering mapping) |
 | `/paper-to-build <slug>` | After `/explain-paper` — scaffolds a short trading/wealth-management problem + a companion notebook (`builds/<slug>.ipynb`) whose sections cover **every** aspect of the paper, as a comprehension check |
+| `/commit [push]` | End of session / "save everything" — stages all work (with a `.env`/secrets guard), then commits with a conventional-commit subject + short bullet summary of what changed; only pushes if you say `push` |
 
 ### Agents (invoked via Agent tool or directly)
 
